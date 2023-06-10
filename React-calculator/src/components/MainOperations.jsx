@@ -2,22 +2,31 @@ import { useState } from 'react';
 import './custom.css'
 import Display from './DisplayOutput';
 
+
+//main component
 const MainOperations = () => {
 
+    
+    //set usestate hook for getting input data
     const [firstinputdata, setFirstInputData] = useState('')
-
     const [secondinputdata, setSecondInputData] = useState('')
 
+    //set usestate hook for calculate total
     const [total, setTotal] = useState(Number)
 
+
+    //handle the first input field(use event object for referencing the input target and its value)
     const HandleInput_1 = (e) => {
         return setFirstInputData(e.target.value)
     }
 
+    //handle the second input field(use event object for referencing the input target and its value)
     const HandleInput_2 = (e) => {
         return setSecondInputData(e.target.value)
     }
 
+
+    //adding operation
     const Adding = () => {
         console.log(`You referenced Adding Process..!!`)
 
@@ -31,6 +40,8 @@ const MainOperations = () => {
         }
     }
 
+
+    //substract operation
     const Substract = () => {
         console.log(`You referenced  Substract Process..!!`)
 
@@ -43,7 +54,9 @@ const MainOperations = () => {
 
         
     }
- 
+
+
+    //multiply operation
     const Multiply = () => {
         console.log(`You referenced  Multiply Process..!!`)
 
@@ -57,6 +70,7 @@ const MainOperations = () => {
     }
 
 
+    //divide operation
     const Divide = () => {
         if(firstinputdata == "" || secondinputdata == ""){
             alert('Please Fill Input Data..!!')
@@ -84,6 +98,8 @@ const MainOperations = () => {
               <input type="text" value={secondinputdata} onChange={HandleInput_2}/>
             </div>
 
+
+            //total passing to display component via using display component's already defined props
             <div className="display-component">
                <Display Total={total}/>
                 
