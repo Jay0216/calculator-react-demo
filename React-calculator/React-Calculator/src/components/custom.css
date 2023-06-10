@@ -1,0 +1,38 @@
+.inputs input{
+    width: 170px;
+    height: 40px;
+    font-size: 25px;
+}
+
+.buttons-operators{
+    margin-top: 60px;
+}
+
+.equal-button{
+    margin-top: 50px;
+}
+
+.total{
+    width: 200px;
+}
+
+.first-buttons{
+    margin-bottom: 50px;
+}
+
+.first-buttons .add{
+    margin-right: 50px;
+}
+
+.second-buttons .multiply{
+    margin-right: 50px;
+}
+
+.total{
+    margin-bottom: 40px;
+}
+
+.display-component{
+    margin-top: 60px;
+    margin-bottom: 70px;
+}

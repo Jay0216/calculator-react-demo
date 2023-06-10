@@ -1,0 +1,25 @@
+Calculator application React Javascript
+
+1. Firstly getting two inputs values.
+2. Handle the input(condiotnal rendering)
+3. pass into the add, substarct, multiply, divide components.
+for implement the Calculator function.(via props)
+4. after calculate pass the data to total component.(via props)
+
+
+5. when user click add or subsract or multiply or divide button(it selected) show plus mark.
+pass that reference into the total component(via props and use event object in javascript for referencing).
+
+
+
+
+(both html inputs move into one component)
+(reduce the components)
+
+Calculator version one done(basic features implemented)
+
+(first get input values)
+(second check input fields are empty)
+(then referenced a operation add, substract, multiply, divide)
+(then check references via event object)
+(then pass operation according to the reference)
