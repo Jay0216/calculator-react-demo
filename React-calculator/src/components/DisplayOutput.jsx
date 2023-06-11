@@ -6,7 +6,7 @@ const Display = (props) => {
     return(
         <div>
 
-               //access props value(total)
+               
                <h2 >Total : {props.Total}</h2>
             
         </div>

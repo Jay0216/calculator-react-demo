@@ -99,7 +99,7 @@ const MainOperations = () => {
             </div>
 
 
-            //total passing to display component via using display component's already defined props
+            
             <div className="display-component">
                <Display Total={total}/>
                 
