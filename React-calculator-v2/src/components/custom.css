@@ -1,0 +1,55 @@
+.inputs input{
+    width: 200px;
+    height: 35px;
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+.display-component{
+    margin-top: 50px;
+}
+
+.button-ref{
+    margin-top: 35px;
+}
+
+.button-ref input{
+    width: 55px;
+    height: 30px;
+    font-size: 28px;
+}
+
+.btn-section{
+    margin-top: 80px;
+}
+
+.btn-sec-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.btn-sec-1 .add-btn{
+    margin-right: 30px;
+}
+
+
+.btn-sec-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.btn-sec-2 .multiply-btn{
+    margin-right: 30px;
+}
+
+.total-btn{
+    margin-top: 40px;
+}
+
+.total-btn button{
+    width: 120px;
+}

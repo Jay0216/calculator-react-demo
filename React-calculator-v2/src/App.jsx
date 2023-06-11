@@ -1,17 +1,15 @@
 import './App.css'
 import Header from './components/Header'
-import MainOperations from './components/MainOperations'
+import Inputs from './components/MainProcess'
 
 function App() {
   
-
   return (
     <div>
-      <Header/>
-      <MainOperations/>
-     
+     <Header/>
+     <Inputs/>
     </div>
-    
+  
   )
 }
 

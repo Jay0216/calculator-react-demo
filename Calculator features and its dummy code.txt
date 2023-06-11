@@ -23,3 +23,9 @@ Calculator version one done(basic features implemented)
 (then referenced a operation add, substract, multiply, divide)
 (then check references via event object)
 (then pass operation according to the reference)
+
+
+
+//implement this
+(then after get total that total getting as a another input and do calculation)
+(swap the inputs)
