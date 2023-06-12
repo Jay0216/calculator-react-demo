@@ -170,6 +170,15 @@ const MainProcess = () => {
     }
 
 
+    const reset_Calculator = () => {
+       
+        setFirstInputValue(0)
+        setSecondInputValue(0)
+        setOperation('')
+        setTotal('')
+    }
+
+
     
 
 
@@ -203,6 +212,10 @@ const MainProcess = () => {
 
 
           <div className="btn-section">
+
+          <div className="ce-btn">
+              <button onClick={reset_Calculator}>CE</button>
+            </div>
 
 
              <div className="btn-sec-1">

@@ -20,7 +20,11 @@
 }
 
 .btn-section{
-    margin-top: 80px;
+    margin-top: 50px;
+}
+
+.btn-section .ce-btn button{
+    width: 120px;
 }
 
 .btn-sec-1{
